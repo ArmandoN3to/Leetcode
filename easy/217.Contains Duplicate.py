@@ -3,9 +3,9 @@ class Solution(object):
         setnums = set()         # create a empty set
         for num in nums:
             if num in setnums:
-                return 1
+                return True
             setnums.add(num)    
-        return 0
+        return False
 
 
 
